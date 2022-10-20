@@ -10,4 +10,4 @@ The user will enter node index.js in their terminal and will be presented with a
 
 ## Screencastify
 
-[A link to the use of this application]()
+[A link to the use of this application](https://drive.google.com/file/d/1o0DbcFYWK6r40fRfujWm4MBtUNyKNf7U/view)

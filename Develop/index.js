@@ -46,7 +46,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'user-info',
+        name: 'usage',
         message: 'What does the user need to know about using this repo?',
     },
     {
@@ -68,13 +68,14 @@ function writeToFile(fileName, data) {
 
 }
 
+
 // TODO: Create a function to initialize app
 function init() {
     inquirer
         .prompt(questions)
         .then((data) => {
             console.log(data);
-            const fileName = `${data.title.split(' ').join('-')}.md`;
+            const fileName= `README.md`
             const markdownContent= generateMarkdown(data);
             writeToFile(fileName, markdownContent);
         }
